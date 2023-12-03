@@ -1,0 +1,60 @@
+.Container{
+    min-height: 90vh;
+}
+
+.Form{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 45px;
+    border-radius: 40px;
+    box-shadow: 0 6px 8px rgba(236, 228, 228, 0.29);
+    transform: translate(-50%, 40%);
+    background: #fff;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+.Input{
+    position: absolute;
+    top: 13px;
+    left: 28px;
+    font-size: 17.5px;
+    background: none;
+    color: #5a6674;
+    width: 300px;
+    height: 20px;
+    border: none;
+    appearance: none;
+    outline: none;
+    cursor: text;
+}
+.Button{
+    position: absolute;
+    top: 13px;
+    right: 15px;
+    height: 20px;
+    width: 20px;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: rgba(30, 31, 34, 0.62);
+}
+.ErrorText{
+    width: 100vw;
+    height: 78vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 40px;
+    font-weight: bold;
+}
+.ErrorText span{
+    background-color: rgba(166, 157, 157, 0.66);
+    box-shadow: rgba(0, 0, 0, 0.63) 0 22px 70px 4px;
+    border-radius: 6px;
+}

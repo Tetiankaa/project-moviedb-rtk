@@ -1,0 +1,15 @@
+.Background{
+    background-color: rgba(31, 7, 7, 0.89);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+.MainContainer{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

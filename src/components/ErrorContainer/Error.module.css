@@ -1,0 +1,36 @@
+.Background{
+    background-image: url("../../assets/images/404_page_cover.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.Button{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    width: 200px;
+    height: 50px;
+    background-image: linear-gradient(-180deg, #37AEE2 0%, #1E96C8 100%);
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    border: 0;
+    cursor: pointer;
+
+}
+.Button:hover{
+    background-image: linear-gradient(-180deg, #1D95C9 0%, #17759C 100%);
+}
+.Error{
+    font-size: 30px;
+    color: #911818;
+    text-align: center;
+    padding-top: 20px;
+}

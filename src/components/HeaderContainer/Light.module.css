@@ -1,0 +1,104 @@
+.Header{
+    width: 100vw;
+    height: 10vh;
+    background-color: rgba(91, 108, 220, 0.93);
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: all 0.5s ease;
+    z-index: 1;
+    position: relative;
+    box-shadow: rgb(91, 108, 220) 0 2px 3px;
+}
+
+.Title{
+    font-size: 33px;
+    margin-left: 30px;
+}
+.Title span{
+    margin-left: 8px;
+}
+.Navlink a{
+    text-decoration: none;
+    font-size: 33px;
+    color: snow;
+}
+.Navlink a[class='active']{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.Navlink{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60vw;
+}
+.Navlink a:hover{
+    font-weight: bold;
+    transition: 0.5s;
+    font-size: 38px;
+    text-shadow: 1px 1px 1px black;
+}
+.User{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.User p{
+    font-size: 19px;
+    margin: 6px ;
+    text-shadow: 2px 2px 2px grey;
+}
+.Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 70px;
+}
+.Container span{
+    font-size: 30px;
+    margin: 2px;
+}
+.Switch{
+    position: relative;
+    display: inline-block;
+    width: 70px;
+    height: 24px;
+}
+.Switch input{
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.Slider{
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #e7dbdb;
+    transition: 0.5s;
+    border-radius: 34px;
+}
+.Slider:before{
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 2px;
+    background-color: rgb(102, 115, 206);
+    transition: 0.4s;
+    transform: translateX(0);
+    border-radius: 50%;
+}
+.Sun{
+    color: yellow;
+}
+.Moon{
+    color: snow;
+}
