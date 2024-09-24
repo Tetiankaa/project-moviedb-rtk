@@ -1,6 +1,6 @@
-# MovieDB with Redux
+# Movie Website Project
 
-This project is the same as [this one](https://github.com/Tetiankaa/project-moviedb), but already with the help of Redux library.
+This project was completed during the React module at Okten School, with the goal of applying technologies learned up to that point. The result is a movie website where users can explore a wide range of movies and their details.
 
 # Technologies Used
 
